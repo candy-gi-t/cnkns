@@ -3,7 +3,7 @@
 const DEFAULT_DATA = {
   "banners": [
     {
-      "image": "images/CNNS.jpg",
+      "image": "CNNS.jpg",
       "tone": "blue",
       "kicker": "Vanakkam — Welcome to",
       "title": "Chidamabaram Nattukottai Nagarathar Sangam",
@@ -13,7 +13,7 @@ const DEFAULT_DATA = {
       "ctaSecondary": { "label": "About the Sangam", "href": "#about" }
     },
     {
-      "image": "images/temple.jpg",
+      "image": "temple.jpg",
       "kicker": "தொன்மம் · தொண்டு · தொடர்ச்சி",
       "title": "Preserving Our Heritage",
       "titleAccent": "& Culture",
@@ -22,7 +22,7 @@ const DEFAULT_DATA = {
       "ctaSecondary": { "label": "Our Culture", "href": "#culture" }
     },
     {
-      "image": "images/temple2.jpg",
+      "image": "temple2.jpg",
       "tone": "red",
       "kicker": "Seva · Service · Sangam",
       "title": "Serving Our Community",
