@@ -1,0 +1,162 @@
+{
+  "site": {
+    "name": "Chidamabaram Nattukottai Nagarathar Sangam",
+    "shortName": "CNNS",
+    "tagline": "Preserving heritage, fostering community, and serving the Nattukottai Nagarathar family of Chidambaram."
+  },
+  "banners": [
+    {
+      "image": "images/CNNS.jpg",
+      "tone": "blue",
+      "kicker": "Vanakkam — Welcome to",
+      "title": "Chidamabaram Nattukottai Nagarathar Sangam",
+      "subtitle": "A century of service, culture and community for the Nagarathar family of Chidambaram — rooted in heritage, reaching for the future.",
+      "ctaPrimary": { "label": "Become a Member", "href": "#membership" },
+      "ctaSecondary": { "label": "About the Sangam", "href": "#about" }
+    },
+    {
+      "image": "images/temple.jpg",
+      "kicker": "தொன்மம் · தொண்டு · தொடர்ச்சி",
+      "title": "Preserving Our Heritage & Culture",
+      "subtitle": "From temple seva to scholarship, marriage to medical assistance — together we safeguard our traditions for generations to come.",
+      "ctaPrimary": { "label": "Ways to Get Help", "href": "#get-help" },
+      "ctaSecondary": { "label": "Our Culture", "href": "#culture" }
+    },
+    {
+      "image": "images/temple2.jpg",
+      "tone": "red",
+      "kicker": "Seva · Service · Sangam",
+      "title": "Serving Our Community With Devotion",
+      "subtitle": "Join hands with the Sangam — volunteer, donate, or become a member and strengthen our bond of service.",
+      "ctaPrimary": { "label": "Donate Today", "href": "#donate" },
+      "ctaSecondary": { "label": "Contact Us", "href": "#contact" }
+    }
+  ],
+  "vision": "To preserve and protect the rich heritage and culture of the Nattukottai Nagarathar community of Chidambaram, while fostering growth, unity and the quality of life of every member.",
+  "objectives": [
+    "Preserve and protect Nattukottai Nagarathar heritage and culture for future generations.",
+    "Create platforms for members to connect with professionals and leaders for mentorship and guidance.",
+    "Foster appreciation of our culture among the younger generation and encourage participation.",
+    "Support education through scholarships for deserving students of our community.",
+    "Extend a helping hand for marriage, medical and humanitarian needs of our members.",
+    "Support the maintenance and seva of our temples and religious institutions in Chidambaram.",
+    "Promote the health, well-being and unity of the community through regular activities."
+  ],
+  "quickActions": [
+    {
+      "icon": "fa-solid fa-users",
+      "title": "Become a Member",
+      "text": "Join our noble mission and efforts to serve the Nattukottai Nagarathar community.",
+      "link": { "label": "Click Here", "href": "#membership" }
+    },
+    {
+      "icon": "fa-solid fa-hand-holding-heart",
+      "title": "Donate to the Sangam",
+      "text": "Your generous contribution supports education, medical, marriage and temple seva.",
+      "link": { "label": "Click Here", "href": "#donate" }
+    },
+    {
+      "icon": "fa-solid fa-hands-praying",
+      "title": "Volunteer with Us",
+      "text": "Give your time and talent — join our committees and help organise events and seva.",
+      "link": { "label": "Click Here", "href": "#contact" }
+    },
+    {
+      "icon": "fa-solid fa-user-lock",
+      "title": "Member Login",
+      "text": "Access the members' portal for updates, directories and community resources.",
+      "link": { "label": "Click Here", "href": "#" }
+    }
+  ],
+  "president": {
+    "name": "விசு பழனியப்பன்",
+    "role": "தலைவர், Chidamabaram Nattukottai Nagarathar Sangam",
+    "message": "Dear fellow Nagarathars,\n\nIt is with deep gratitude and humility that I welcome you to the Chidamabaram Nattukottai Nagarathar Sangam. For generations, our community has been bound by the twin values of devotion (தொண்டு) and tradition (தொன்மம்). In a world that changes rapidly, we remain steadfast in our promise to our forefathers — to carry forward (தொடர்ச்சி) the service, culture and unity of our beloved community.\n\nThis year, our focus is on strengthening the bonds within our Sangam family: supporting education through scholarships, lending a helping hand in times of need, and keeping our temples vibrant. I invite every family to take part — for a Sangam is only as strong as the hands that hold it together.",
+    "theme": "தொன்மம்! தொண்டு! தொடர்ச்சி!"
+  },
+  "officeBearers": [
+    { "name": "RM. செந்தாமரை", "role": "Secretary" },
+    { "name": "V. கல்யாணசுந்தரம்", "role": "Treasurer" },
+    { "name": "RM. சுப்பிரமணியன்", "role": "Vice-President" },
+    { "name": "J. மணிகண்டன்", "role": "Deputy Secretary" }
+  ],
+  "executiveCommittee": [
+    { "honor": "Thiru", "name": "K. Palanaiappan" },
+    { "honor": "Thiru", "name": "M. Kadappan" },
+    { "honor": "Thiru", "name": "Peri Annamalai" },
+    { "honor": "Thiru", "name": "SP. Supramanian" },
+    { "honor": "Thiru", "name": "MPL. Kannappan" },
+    { "honor": "Thiru", "name": "PL. Karuthan" },
+    { "honor": "Thiru", "name": "C. Maruthappan" },
+    { "honor": "Thiru", "name": "C. Rajendren" },
+    { "honor": "Thirumathi", "name": "Sethukkarasi Chidambaram" },
+    { "honor": "Thirumathi", "name": "Rani Nachiyar" },
+    { "honor": "Thirumathi", "name": "T. Vasanthal" },
+    { "honor": "Thirumathi", "name": "PR. Ramalatha" },
+    { "honor": "Thirumathi", "name": "N. Uma Nachiappan" },
+    { "honor": "Thirumathi", "name": "Saratha Palaniappan" },
+    { "honor": "Thirumathi", "name": "Sumathi Rajavel" },
+    { "honor": "Thirumathi", "name": "CT. Deivanai" }
+  ],
+  "getHelp": [
+    {
+      "icon": "fa-solid fa-graduation-cap",
+      "title": "Education Scholarship",
+      "text": "Financial assistance for deserving students of our community pursuing higher education.",
+      "link": { "label": "Apply Now", "href": "#" }
+    },
+    {
+      "icon": "fa-solid fa-stethoscope",
+      "title": "Medical Assistance",
+      "text": "Support for members facing medical emergencies and treatment expenses.",
+      "link": { "label": "Apply Now", "href": "#" }
+    },
+    {
+      "icon": "fa-solid fa-rings-wedding",
+      "title": "Marriage Assistance",
+      "text": "Help for families in the marriage of their sons and daughters within the community.",
+      "link": { "label": "Apply Now", "href": "#" }
+    },
+    {
+      "icon": "fa-solid fa-temple",
+      "title": "Temple Assistance",
+      "text": "Support for temple operations, kumbabishekam and religious seva in Chidambaram.",
+      "link": { "label": "Apply Now", "href": "#" }
+    }
+  ],
+  "events": [
+    {
+      "date": { "day": "14", "month": "Aug", "year": "2026" },
+      "tag": "Celebration",
+      "title": "திரு விளக்கு வழி பாடு",
+      "venue": "CNNS Sangam, 34A, V.O.C. Street, Chidambaram",
+      "excerpt": "உங்கள் குடும்பத்தினருடன் வந்து விழாவை சிறப்பிக்கவும், தயவு செய்து விளக்கு, விளக்கு தட்டு, சுடதட்டு கொண்டு வாருங்கள்,
+                  இரவு 8.00 மணிக்கு இரவு உணவு ஏற்பாடு செய்யப்பட்டுள்ளது",
+      "href": "#"
+    },
+    // {
+    //   "date": { "day": "14", "month": "Jan", "year": "2026" },
+    //   "tag": "Festival",
+    //   "title": "Pongal Sambandham & Community Lunch",
+    //   "venue": "Sangam Grounds, Chidambaram",
+    //   "excerpt": "A day of traditional Pongal cooking, kolam competition, games for children and a grand community feast.",
+    //   "href": "#"
+    // },
+    // {
+    //   "date": { "day": "02", "month": "Nov", "year": "2026" },
+    //   "tag": "Event",
+    //   "title": "Nagarathar Heritage & Nanal Launch",
+    //   "venue": "Sangam Library Hall",
+    //   "excerpt": "Launch of the latest Nanal edition with talks on Chettiar history, art and the rich literary tradition of our community.",
+    //   "href": "#"
+    // },
+    // {
+    //   "date": { "day": "28", "month": "Dec", "year": "2026" },
+    //   "tag": "Annual",
+    //   "title": "Annual General Meeting & Awards",
+    //   "venue": "Sangam Auditorium, Chidambaram",
+    //   "excerpt": "Annual review, election of office bearers, felicitation of achievers and cultural programme by our youth.",
+    //   "href": "#"
+    // }
+  ]
+}
