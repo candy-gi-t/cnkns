@@ -47,7 +47,7 @@ const DEFAULT_DATA = {
       "icon": "fa-solid fa-users",
       "title": "Become a Member",
       "text": "Join our noble mission and efforts to serve the Nattukottai Nagarathar community.",
-      "link": { "label": "Click Here", "href": "#membership" }
+      "link": { "label": "Click Here", "href": "https://forms.gle/dFSujozjTgd3ibks7" }
     },
     {
       "icon": "fa-solid fa-hand-holding-heart",
