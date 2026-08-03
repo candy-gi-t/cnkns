@@ -6,7 +6,7 @@
   },
   "banners": [
     {
-      "image": "images/CNNS.jpg",
+      "image": "CNNS.jpg",
       "tone": "blue",
       "kicker": "Vanakkam — Welcome to",
       "title": "Chidamabaram Nattukottai Nagarathar Sangam",
@@ -15,7 +15,7 @@
       "ctaSecondary": { "label": "About the Sangam", "href": "#about" }
     },
     {
-      "image": "images/temple.jpg",
+      "image": "temple.jpg",
       "kicker": "தொன்மம் · தொண்டு · தொடர்ச்சி",
       "title": "Preserving Our Heritage & Culture",
       "subtitle": "From temple seva to scholarship, marriage to medical assistance — together we safeguard our traditions for generations to come.",
@@ -23,7 +23,7 @@
       "ctaSecondary": { "label": "Our Culture", "href": "#culture" }
     },
     {
-      "image": "images/temple2.jpg",
+      "image": "temple2.jpg",
       "tone": "red",
       "kicker": "Seva · Service · Sangam",
       "title": "Serving Our Community With Devotion",
