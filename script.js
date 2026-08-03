@@ -3,7 +3,7 @@
 const DEFAULT_DATA = {
   "banners": [
     {
-      "image": "CNNS.jpg",
+      "image": "images/CNNS.jpg",
       "tone": "blue",
       "kicker": "Vanakkam — Welcome to",
       "title": "Chidamabaram Nattukottai Nagarathar Sangam",
@@ -13,7 +13,7 @@ const DEFAULT_DATA = {
       "ctaSecondary": { "label": "About the Sangam", "href": "#about" }
     },
     {
-      "image": "temple.jpg",
+      "image": "images/temple.jpg",
       "kicker": "தொன்மம் · தொண்டு · தொடர்ச்சி",
       "title": "Preserving Our Heritage",
       "titleAccent": "& Culture",
@@ -22,7 +22,7 @@ const DEFAULT_DATA = {
       "ctaSecondary": { "label": "Our Culture", "href": "#culture" }
     },
     {
-      "image": "temple2.jpg",
+      "image": "images/temple2.jpg",
       "tone": "red",
       "kicker": "Seva · Service · Sangam",
       "title": "Serving Our Community",
@@ -30,7 +30,7 @@ const DEFAULT_DATA = {
       "subtitle": "Join hands with the Sangam — volunteer, donate, or become a member and strengthen our bond of service.",
       "ctaPrimary": { "label": "Donate Today", "href": "#donate" },
       "ctaSecondary": { "label": "Contact Us", "href": "#contact" }
-    },
+    }
   ],
   "vision": "To preserve and protect the rich heritage and culture of the Nattukottai Nagarathar community while fostering their growth and enhancing the quality of life of all members.",
   "objectives": [
@@ -499,3 +499,4 @@ const DEFAULT_DATA = {
     /* ---------------- Boot ---------------- */
     loadData().then(observeReveals);
 })();
+
