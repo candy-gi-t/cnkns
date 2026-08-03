@@ -70,8 +70,8 @@ const DEFAULT_DATA = {
   ],
   "president": {
     "name": "விசு பழனியப்பன்",
-    "role": "தலைவர், Chidamabaram Nattukottai Nagarathar Sangam",
-    "message": "Dear fellow Nagarathars,\n\nIt is with deep gratitude and humility that I welcome you to the Chidamabaram Nattukottai Nagarathar Sangam. For generations, our community has been bound by the twin values of devotion (தொண்டு) and tradition (தொன்மம்). In a world that changes rapidly, we remain steadfast in our promise to our forefathers — to carry forward (தொடர்ச்சி) the service, culture and unity of our beloved community.\n\nThis year, our focus is on strengthening the bonds within our Sangam family: supporting education through scholarships, lending a helping hand in times of need, and keeping our temples vibrant. I invite every family to take part — for a Sangam is only as strong as the hands that hold it together.",
+    "role": "தலைவர், Chidambaram Nattukottai Nagarathar Sangam",
+    "message": "Dear fellow Nagarathars,\n\nIt is with deep gratitude and humility that I welcome you to the Chidambaram Nattukottai Nagarathar Sangam. For generations, our community has been bound by the twin values of devotion (தொண்டு) and tradition (தொன்மம்). In a world that changes rapidly, we remain steadfast in our promise to our forefathers — to carry forward (தொடர்ச்சி) the service, culture and unity of our beloved community.\n\nThis year, our focus is on strengthening the bonds within our Sangam family: supporting education through scholarships, lending a helping hand in times of need, and keeping our temples vibrant. I invite every family to take part — for a Sangam is only as strong as the hands that hold it together.",
     "theme": "தொன்மம்! தொண்டு! தொடர்ச்சி!"
   },
   "officeBearers": [
