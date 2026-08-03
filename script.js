@@ -6,7 +6,7 @@ const DEFAULT_DATA = {
       "image": "CNNS.jpg",
       "tone": "blue",
       "kicker": "Vanakkam — Welcome to",
-      "title": "Chidamabaram Nattukottai Nagarathar Sangam",
+      "title": "Chidambaram Nattukottai Nagarathar Sangam",
       "titleAccent": "",
       "subtitle": "A century of service, culture and community for the Nagarathar family of Chidambaram — rooted in heritage, reaching for the future.",
       "ctaPrimary": { "label": "Become a Member", "href": "#membership" },
