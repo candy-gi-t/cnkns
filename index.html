@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chidamabaram Nattukottai Nagarathar Sangam</title>
+    <meta name="description" content="Chidamabaram Nattukottai Nagarathar Sangam — preserving heritage, fostering community and serving the Nagarathar family of Chidambaram.">
+    <meta name="theme-color" content="#0d1330">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='12' y='12' width='24' height='24' transform='rotate(45 24 24)' fill='none' stroke='%23f59a00' stroke-width='3'/%3E%3Ccircle cx='24' cy='24' r='5' fill='%23f59a00'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="#top" class="brand" aria-label="Home">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <rect x="12" y="12" width="24" height="24" transform="rotate(45 24 24)" stroke="currentColor" stroke-width="1.6"/>
+                        <rect x="17" y="17" width="14" height="14" transform="rotate(45 24 24)" stroke="currentColor" stroke-width="1.2"/>
+                        <circle cx="24" cy="24" r="2.6" fill="currentColor"/>
+                    </svg>
+                </span>
+                <span class="brand-text">
+                    <span class="brand-name">Chidamabaram Nattukottai</span>
+                    <span class="brand-sub">Nagarathar Sangam</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="site-nav" id="siteNav" aria-label="Primary">
+                <ul class="nav-list">
+                    <li class="has-drop">
+                        <a href="#about">About Us</a>
+                        <ul class="drop">
+                            <li><a href="#about">About the Sangam</a></li>
+                            <li><a href="#history">Sangam History</a></li>
+                            <li><a href="#bylaws">Sangam Bylaws</a></li>
+                            <li><a href="#culture">Nagarathar Culture</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-drop">
+                        <a href="#get-help">Get Help</a>
+                        <ul class="drop">
+                            <li><a href="#get-help">Education Scholarship</a></li>
+                            <li><a href="#get-help">Medical Assistance</a></li>
+                            <li><a href="#get-help">Marriage Assistance</a></li>
+                            <li><a href="#get-help">Temple Assistance</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-drop">
+                        <a href="#membership">Membership</a>
+                        <ul class="drop">
+                            <li><a href="#membership">Membership Benefits</a></li>
+                            <li><a href="#membership">Become a Member</a></li>
+                            <li><a href="#membership">Member Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-drop">
+                        <a href="#committees">Committees</a>
+                        <ul class="drop">
+                            <li><a href="#committees">Education</a></li>
+                            <li><a href="#committees">Health &amp; Humanitarian</a></li>
+                            <li><a href="#committees">Marriage</a></li>
+                            <li><a href="#committees">Religion &amp; Culture</a></li>
+                            <li><a href="#committees">Youth &amp; Sports</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-drop">
+                        <a href="#events">Events</a>
+                        <ul class="drop">
+                            <li><a href="#events">Upcoming Events</a></li>
+                            <li><a href="#events">Photo Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============ HERO SLIDER ============ -->
+        <section class="hero" aria-label="Welcome slider">
+            <div class="hero-slider" id="heroSlider">
+                <div class="hero-slide is-active tone-blue">
+                    <div class="hero-bg" style="background-image:url('images/CNNS.jpg')"></div>
+                    <div class="hero-content">
+                        <span class="hero-kicker">வணக்கம் — Welcome to</span>
+                        <h1 class="hero-title">Chidamabaram Nattukottai <span>Nagarathar Sangam</span></h1>
+                        <p class="hero-sub">A century of service, culture and community for the Nagarathar family of Chidambaram — rooted in heritage, reaching for the future.</p>
+                        <div class="hero-actions">
+                            <a href="#membership" class="btn btn-gold">Become a Member</a>
+                            <a href="#about" class="btn btn-ghost">About the Sangam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-overlay-shade" aria-hidden="true"></div>
+            <div class="hero-vignette" aria-hidden="true"></div>
+            <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-arrow slider-next" id="sliderNext" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Slides"></div>
+            <a href="#about" class="hero-scroll" aria-label="Scroll down"><span>Scroll</span><i class="fa-solid fa-chevron-down"></i></a>
+        </section>
+
+        <!-- ============ MARQUEE SEVA STRIP ============ -->
+        <section class="seva-strip" aria-label="Seva values">
+            <div class="seva-strip-inner">
+                <span class="seva-word">தொன்மம் <small>Heritage</small></span>
+                <span class="seva-dot" aria-hidden="true"></span>
+                <span class="seva-word">தொண்டு <small>Service</small></span>
+                <span class="seva-dot" aria-hidden="true"></span>
+                <span class="seva-word">தொடர்ச்சி <small>Continuity</small></span>
+                <span class="seva-dot" aria-hidden="true"></span>
+                <span class="seva-word">நகரத்தார் நலமும் வளமும் <small>Prosperity of all Nagarathars</small></span>
+            </div>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-media reveal">
+                        <div class="about-frame">
+                            <div class="about-img">
+                                <img src="images/CNNS-1.jpg" alt="Chidamabaram Nattukottai Nagarathar Sangam" loading="lazy">
+                            </div>
+                            <div class="about-kolam" aria-hidden="true">
+                                <svg viewBox="0 0 120 120" fill="none">
+                                    <g stroke="currentColor" stroke-width="1">
+                                        <path d="M60 6 L92 30 L60 54 L28 30 Z"/>
+                                        <path d="M60 66 L92 90 L60 114 L28 90 Z"/>
+                                        <path d="M6 60 L30 28 L54 60 L30 92 Z"/>
+                                        <path d="M66 60 L90 28 L114 60 L90 92 Z"/>
+                                    </g>
+                                    <g fill="currentColor">
+                                        <circle cx="60" cy="30" r="2.4"/><circle cx="60" cy="90" r="2.4"/>
+                                        <circle cx="30" cy="60" r="2.4"/><circle cx="90" cy="60" r="2.4"/>
+                                        <circle cx="60" cy="60" r="3"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="about-stamp">
+                                <span class="stamp-year">Est. 1976</span>
+                                <span class="stamp-caption">Serving since generations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal">
+                        <span class="eyebrow">About the Sangam</span>
+                        <h2 class="section-title">A Home for the Nagarathar Family of Chidambaram</h2>
+                        <p class="lede">The Chidamabaram Nattukottai Nagarathar Sangam is a non-profit, charitable, non-political community organisation dedicated to fostering unity, cooperation and well-being among the Nagarathars of Chidambaram and beyond.</p>
+                        <blockquote class="vision">
+                            <span class="vision-label">Our Vision</span>
+                            <p id="visionText">To preserve and protect the rich heritage and culture of the Nattukottai Nagarathar community while fostering their growth and enhancing the quality of life of all members.</p>
+                        </blockquote>
+                        <div class="objectives">
+                            <h3 class="objectives-heading">Our Objectives</h3>
+                            <ul class="objectives-list" id="objectivesList"></ul>
+                        </div>
+                        <a href="#history" class="btn btn-indigo">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ HOW CAN YOU HELP ============ -->
+        <section class="section help" id="help">
+            <div class="help-bg-motif" aria-hidden="true"></div>
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Get Involved</span>
+                    <h2 class="section-title">How Can You Help</h2>
+                    <p class="section-lead">Every hand makes a difference. Join us in extending a helping hand to our community.</p>
+                </div>
+                <div class="help-grid" id="quickActionGrid"></div>
+            </div>
+        </section>
+
+        <!-- ============ PRESIDENT ============ -->
+        <section class="section president" id="president">
+            <div class="container">
+                <div class="president-grid">
+                    <div class="president-media reveal">
+                        <div class="president-card">
+                            <span class="president-corner" aria-hidden="true"></span>
+                            <div class="president-avatar" id="presidentAvatar" aria-hidden="true">
+                                <svg viewBox="0 0 200 200" fill="none">
+                                    <rect x="20" y="20" width="160" height="160" transform="rotate(45 100 100)" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="100" cy="80" r="34" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M52 168c4-34 22-52 48-52s44 18 48 52" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M70 176l30-10 30 10-30 14z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="president-id">
+                                <span class="president-name" id="presidentName">விசு பழனியப்பன்</span>
+                                <span class="president-role" id="presidentRole">தலைவர், Chidamabaram Nattukottai Nagarathar Sangam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="president-content reveal">
+                        <span class="eyebrow">தலைவர் செய்தி</span>
+                        <h2 class="section-title">A Word From Our தலைவர்</h2>
+                        <p class="president-theme" id="presidentTheme">தொன்மம்! தொண்டு! தொடர்ச்சி!</p>
+                        <div class="president-message" id="presidentMessage"></div>
+                        <div class="president-sign">— <span id="presidentSign">விசு பழனியப்பன்</span>, தலைவர்</div>
+                        <a href="#history" class="btn btn-outline-indigo">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ OFFICE BEARERS ============ -->
+        <section class="section officers" id="officers">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Leadership</span>
+                    <h2 class="section-title">Office Bearers</h2>
+                    <p class="section-lead">The dedicated team steering the Sangam with service, integrity and devotion.</p>
+                </div>
+                <div class="officers-grid" id="officersGrid"></div>
+            </div>
+        </section>
+
+        <!-- ============ EXECUTIVE COMMITTEE ============ -->
+        <section class="section executive" id="executive-committee">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Our Team</span>
+                    <h2 class="section-title">Executive Committee Members</h2>
+                    <p class="section-lead">The trusted members serving the Sangam and its community.</p>
+                </div>
+                <div class="exec-grid" id="execGrid"></div>
+            </div>
+        </section>
+
+        <!-- ============ WAYS TO GET HELP ============ -->
+        <section class="section gethelp" id="get-help">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Get Assistance</span>
+                    <h2 class="section-title">Ways To Get Help</h2>
+                    <p class="section-lead">Our Sangam stands by our members in every season of life.</p>
+                </div>
+                <div class="gethelp-grid" id="getHelpGrid"></div>
+            </div>
+        </section>
+
+        <!-- ============ CULTURE & HERITAGE ============ -->
+        <section class="section culture" id="culture">
+            <div class="container">
+                <div class="culture-grid">
+                    <div class="culture-content reveal">
+                        <span class="eyebrow">Culture &amp; Heritage</span>
+                        <h2 class="section-title">The Nagarathar Way of Life</h2>
+                        <p>The Nagarathars — also known as Nattukkottai Chettiars — are a distinguished mercantile community of Tamil Nadu, famed for their Chettinad palaces, entrepreneurial spirit and deep devotion. From Kaveripoompattinam under the Chola kingdom, our forefathers travelled the world, yet carried their values of thrift, charity (dānam) and temple seva wherever they went.</p>
+                        <p>In Chidambaram, home of the cosmic dancer Nataraja, our Sangam keeps this living tradition close — through temple festivals, Nanal literary gatherings, kolam competitions and the passing of our customs to the next generation.</p>
+                        <ul class="culture-values">
+                            <li><i class="fa-solid fa-om"></i> Temple Seva &amp; Festivals</li>
+                            <li><i class="fa-solid fa-book-open"></i> Nanal &amp; Tamil Literature</li>
+                            <li><i class="fa-solid fa-children"></i> Youth &amp; Tradition</li>
+                            <li><i class="fa-solid fa-hands-holding-circle"></i> Charity &amp; Dānam</li>
+                        </ul>
+                        <a href="#culture" class="btn btn-gold">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="culture-media reveal">
+                        <div class="culture-art">
+                            <svg viewBox="0 0 320 320" fill="none" aria-hidden="true">
+                                <defs>
+                                    <pattern id="kolamPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+                                        <path d="M20 0 L40 20 L20 40 L0 20 Z" fill="none" stroke="currentColor" stroke-width="1" opacity="0.55"/>
+                                        <circle cx="20" cy="20" r="2" fill="currentColor"/>
+                                    </pattern>
+                                </defs>
+                                <rect width="320" height="320" fill="#0d1330"/>
+                                <circle cx="160" cy="160" r="130" fill="none" stroke="#f59a00" stroke-width="1.2"/>
+                                <circle cx="160" cy="160" r="108" fill="none" stroke="#f59a00" stroke-width="0.8" opacity="0.7"/>
+                                <circle cx="160" cy="160" r="86" fill="url(#kolamPattern)"/>
+                                <circle cx="160" cy="160" r="44" fill="none" stroke="#f59a00" stroke-width="1"/>
+                                <path d="M160 60 L214 160 L160 260 L106 160 Z" fill="none" stroke="#f5d76e" stroke-width="1.6"/>
+                                <path d="M160 104 L196 160 L160 216 L124 160 Z" fill="#f59a00" opacity="0.85"/>
+                                <circle cx="160" cy="160" r="7" fill="#f5d76e"/>
+                                <g fill="#f5d76e">
+                                    <circle cx="160" cy="60" r="3"/><circle cx="160" cy="260" r="3"/>
+                                    <circle cx="60" cy="160" r="3"/><circle cx="260" cy="160" r="3"/>
+                                    <circle cx="214" cy="106" r="2.4"/><circle cx="106" cy="106" r="2.4"/>
+                                    <circle cx="214" cy="214" r="2.4"/><circle cx="106" cy="214" r="2.4"/>
+                                </g>
+                            </svg>
+                            <span class="culture-caption">Kolam — an art of the Nagarathar home</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EVENTS ============ -->
+        <section class="section events" id="events">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">What's On</span>
+                    <h2 class="section-title">News &amp; Events</h2>
+                    <p class="section-lead">Gatherings, festivals and seva — be part of the Sangam's year-round activities.</p>
+                </div>
+                <div class="events-grid" id="eventsGrid"></div>
+                <div class="events-more reveal">
+                    <a href="#events" class="btn btn-indigo">View All Events <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ MEMBERSHIP CTA ============ -->
+        <section class="section membership-cta" id="membership">
+            <div class="membership-glow" aria-hidden="true"></div>
+            <div class="container">
+                <div class="membership-box reveal">
+                    <div class="membership-text">
+                        <span class="eyebrow">Become a Member</span>
+                        <h2 class="membership-title">Stand Together With Your Sangam Family</h2>
+                        <p class="membership-sub">Membership brings you closer to your community — through events, assistance, seva and lifelong bonds.</p>
+                    </div>
+                    <div class="membership-actions">
+                        <a href="#membership" class="btn btn-gold">Become a Member <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#membership" class="btn btn-ghost">Member Login</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ DONATE ============ -->
+        <section class="section donate" id="donate">
+            <div class="container">
+                <div class="donate-grid">
+                    <div class="donate-content reveal">
+                        <span class="eyebrow">Support the Sangam</span>
+                        <h2 class="section-title">Donate With a Generous Heart</h2>
+                        <p class="lede">Contributions to the Sangam support our scholarships, medical and marriage assistance, temple seva and community events. Every rupee goes back into the service of our people.</p>
+                        <ul class="donate-uses">
+                            <li><i class="fa-solid fa-check"></i> Education scholarships for students</li>
+                            <li><i class="fa-solid fa-check"></i> Medical &amp; emergency relief</li>
+                            <li><i class="fa-solid fa-check"></i> Marriage assistance</li>
+                            <li><i class="fa-solid fa-check"></i> Temple kumbabishekam &amp; seva</li>
+                        </ul>
+                        <div class="donate-actions">
+                            <a href="#donate" class="btn btn-gold">Donate Now <i class="fa-solid fa-heart"></i></a>
+                            <a href="#donate" class="btn btn-outline-indigo">How to Donate</a>
+                        </div>
+                    </div>
+                    <div class="donate-card reveal">
+                        <div class="donate-card-inner">
+                            <span class="donate-card-label">Sangam Bank Details</span>
+                            <h3 class="donate-card-title">Make a Contribution</h3>
+                            <ul class="bank-details">
+                                <li><span>Account Name</span>Chidamabaram Nattukottai Nagarathar Sangam</li>
+                                <li><span>Account No.</span>0000 1234 5678 90</li>
+                                <li><span>Bank</span>Indian Bank, Chidambaram Branch</li>
+                                <li><span>IFSC</span>IDIB000C123</li>
+                                <li><span>UPI</span>cnns@upi</li>
+                            </ul>
+                            <p class="donate-note">Please share your transaction details so we can acknowledge your generous gift.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Reach Us</span>
+                    <h2 class="section-title">Contact the Sangam</h2>
+                    <p class="section-lead">Have a question or wish to volunteer? We'd love to hear from you.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <div><h4>Visit Us</h4><p>Nattukottai Nagarathar Sangam Building,<br>36A, V.O.C Street, Chidambaram, Tamil Nadu 608001</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                            <div><h4>Call Us</h4><p>+91 4144 222 333<br>+91 94425 25931</p></div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                            <div><h4>Email Us</h4><p>cnkns26@gmail.com<br>secretary@cnns.org</p></div>
+                        </div>
+                        <div class="contact-map">
+                            <iframe title="Map to the Sangam" src="https://www.google.com/maps/embed?pb=!1m16!1m11!1m3!1d3!2d79.69842539999999!3d11.4006291!2m2!1f0!2f90!3m2!1i1024!2i768!4f75!3m3!1m2!1s0x3a54c3006c4e624b%3A0xe94bf730e398f39!2sChidambaram%20Nattukottai%20Nagarathar%20Sangam%20Nagara%20Viduthi!4v1785782805955" width="100%" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                    </div>
+                    <form class="contact-form reveal" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="cName">Full Name <span>*</span></label>
+                                <input type="text" id="cName" name="name" placeholder="Your full name" required>
+                                <span class="error" id="cNameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="cEmail">Email Address <span>*</span></label>
+                                <input type="email" id="cEmail" name="email" placeholder="you@example.com" required>
+                                <span class="error" id="cEmailError"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="cPhone">Phone Number</label>
+                            <input type="tel" id="cPhone" name="phone" placeholder="+91 ...">
+                            <span class="error" id="cPhoneError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="cSubject">Subject <span>*</span></label>
+                            <select id="cSubject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option>Membership Enquiry</option>
+                                <option>Education Scholarship</option>
+                                <option>Medical Assistance</option>
+                                <option>Marriage Assistance</option>
+                                <option>Temple Assistance</option>
+                                <option>Donation</option>
+                                <option>Volunteering</option>
+                                <option>Other</option>
+                            </select>
+                            <span class="error" id="cSubjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="cMessage">Message <span>*</span></label>
+                            <textarea id="cMessage" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                            <span class="error" id="cMessageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-gold btn-full">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p><strong>Thank you!</strong> Your message has been sent. We will get back to you soon.</p>
+                        </div>
+                        <div class="form-error" id="formError">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            <p><strong>Oops!</strong> Something went wrong. Please try again or email us at cnkns26@gmail.com.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="footer-motif" aria-hidden="true"></div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#top" class="brand brand-footer">
+                        <span class="brand-mark" aria-hidden="true">
+                            <svg viewBox="0 0 48 48" fill="none">
+                                <rect x="12" y="12" width="24" height="24" transform="rotate(45 24 24)" stroke="currentColor" stroke-width="1.6"/>
+                                <rect x="17" y="17" width="14" height="14" transform="rotate(45 24 24)" stroke="currentColor" stroke-width="1.2"/>
+                                <circle cx="24" cy="24" r="2.6" fill="currentColor"/>
+                            </svg>
+                        </span>
+                        <span class="brand-text">
+                            <span class="brand-name">Chidamabaram Nattukottai</span>
+                            <span class="brand-sub">Nagarathar Sangam</span>
+                        </span>
+                    </a>
+                    <p class="footer-about">Preserving the rich heritage and culture of the Nattukottai Nagarathar community of Chidambaram while fostering growth, unity and well-being for all members.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#about">About the Sangam</a></li>
+                        <li><a href="#history">Sangam History</a></li>
+                        <li><a href="#president">தலைவர் செய்தி</a></li>
+                        <li><a href="#culture">Nagarathar Culture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Assistance</h4>
+                    <ul>
+                        <li><a href="#get-help">Education Scholarship</a></li>
+                        <li><a href="#get-help">Medical Assistance</a></li>
+                        <li><a href="#get-help">Marriage Assistance</a></li>
+                        <li><a href="#get-help">Temple Assistance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="#membership">Become a Member</a></li>
+                        <li><a href="#membership">Member Login</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#events">Nanal (Newsletter)</a></li>
+                        <li><a href="#events">Events &amp; Gallery</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> Chidamabaram Nattukottai Nagarathar Sangam. All Rights Reserved.</p>
+                <p class="footer-motto">தொன்மம் · தொண்டு · தொடர்ச்சி</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
