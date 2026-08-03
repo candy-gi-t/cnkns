@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Chidamabaram Nattukottai Nagarathar Sangam",
+    "name": "Chidambaram Nattukottai Nagarathar Sangam",
     "shortName": "CNNS",
     "tagline": "Preserving heritage, fostering community, and serving the Nattukottai Nagarathar family of Chidambaram."
   },
@@ -9,7 +9,7 @@
       "image": "CNNS.jpg",
       "tone": "blue",
       "kicker": "Vanakkam — Welcome to",
-      "title": "Chidamabaram Nattukottai Nagarathar Sangam",
+      "title": "Chidambaram Nattukottai Nagarathar Sangam",
       "subtitle": "A century of service, culture and community for the Nagarathar family of Chidambaram — rooted in heritage, reaching for the future.",
       "ctaPrimary": { "label": "Become a Member", "href": "#membership" },
       "ctaSecondary": { "label": "About the Sangam", "href": "#about" }
