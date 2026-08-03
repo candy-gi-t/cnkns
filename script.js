@@ -1,4 +1,4 @@
-/* Chidamabaram Nattukottai Nagarathar Sangam — homepage interactions */
+/* Chidambaram Nattukottai Nagarathar Sangam — homepage interactions */
 
 const DEFAULT_DATA = {
   "banners": [
